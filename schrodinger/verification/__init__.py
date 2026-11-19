@@ -2,6 +2,9 @@ from .analytical_solver import AnalyticalSolution, AnalyticalSolver
 from .infinite_well_analytical import InfiniteSquareWellAnalytical
 from .harmonic_oscillator_analytical import HarmonicOscillatorAnalytical
 from .free_particle_analytical import FreeParticleAnalytical
+from .morse_analytical import MorseAnalytical
+from .poschl_teller_analytical import PoschlTellerAnalytical
+from .numerical_reference import NumericalReferenceSolution
 from .error_analysis import ErrorAnalyzer, ErrorSummary
 from .numerical_comparison import (
     StateComparisonResult,
@@ -25,6 +28,9 @@ __all__ = [
     "InfiniteSquareWellAnalytical",
     "HarmonicOscillatorAnalytical",
     "FreeParticleAnalytical",
+    "MorseAnalytical",
+    "PoschlTellerAnalytical",
+    "NumericalReferenceSolution",
     "ErrorAnalyzer",
     "ErrorSummary",
     "StateComparisonResult",
