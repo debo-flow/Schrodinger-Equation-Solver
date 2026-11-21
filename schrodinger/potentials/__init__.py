@@ -24,6 +24,13 @@ from .potential_analysis import (
     PotentialAnalysisReport,
     PotentialAnalyzer
 )
+from .time_dependent import (
+    TimeDependentPotential,
+    StaticPotentialWrapper,
+    CallableTimeDependentPotential,
+    LinearlyDrivenPotential,
+    ModulatedPotential
+)
 
 __all__ = [
     "Potential",
@@ -45,5 +52,10 @@ __all__ = [
     "ParameterizedPotentialCombination",
     "ExtremumPoint",
     "PotentialAnalysisReport",
-    "PotentialAnalyzer"
+    "PotentialAnalyzer",
+    "TimeDependentPotential",
+    "StaticPotentialWrapper",
+    "CallableTimeDependentPotential",
+    "LinearlyDrivenPotential",
+    "ModulatedPotential"
 ]
